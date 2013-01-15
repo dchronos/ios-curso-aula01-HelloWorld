@@ -9,6 +9,12 @@
 #import "ViewController.h"
 
 @implementation ViewController
+@synthesize label;
+
+- (IBAction)mudarTexto:(id)sender
+{
+    label.text = @"Funcionou";
+}
 
 - (void)didReceiveMemoryWarning
 {

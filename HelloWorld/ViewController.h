@@ -9,5 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+@property (weak) IBOutlet UILabel * label;
+- (IBAction)mudarTexto:(id)sender;
 
 @end
